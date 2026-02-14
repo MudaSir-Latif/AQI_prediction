@@ -9,6 +9,8 @@ on:
 jobs:
   run-feature-pipeline:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     
     steps:
       - name: Checkout code

@@ -73,5 +73,9 @@ tmp/
 temp/
 *.tmp
 
+# Test files
+test_*.py
+*_mock_*.csv
+
 # OS
 Thumbs.db
